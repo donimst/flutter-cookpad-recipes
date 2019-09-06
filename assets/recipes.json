@@ -1,0 +1,52 @@
+[
+  {
+    "strName": "Kimbab Gampil",
+    "strImage": "kimbab_gampil.jpg",
+    "strIngredients": "1 lembar nori \n1 butir telur \nSejumput kaldu jamur \n2 lembar Selada ungu \n1 buah wortel \n1 buah timun ambil dagingnya aja \nMayonaise \nSejumput garlic powder \nMinyak wijen \nNasi putih hangat"
+  },
+  {
+    "strName": "Gyeran Mari (계란 말이)",
+    "strImage": "gyeran_mari.jpg",
+    "strIngredients": "3-4 butir telur ayam \n1 batang daun bawang \n1 batang daun seledri \nSecukupnya wortel \n1 buah sosis \nSecukupnya garam halus \n1/2 sdt bubuk penyedap \n1/2 sdt merica bubuk \n3 sdm minyak goreng"
+  },
+  {
+    "strName": "Tteokbokki (떡볶이)",
+    "strImage": "tteokbokki.jpg",
+    "strIngredients": "125 gram tepung beras \n1 sdm tepung tapioka \n120 ml air \n1 sdt garam \nSaus \n3 siung bawang putih \n3 sdm saus cabe \n2 sachet boncabe \n1 sdt gula pasir \n75 ml air \n1 sdt maizena \nTaburan \nDaun bawang \nWijen"
+  },
+  {
+    "strName": "Miyeok Guk (미역국)",
+    "strImage": "miyeok_guk.jpg",
+    "strIngredients": "10 Gram Rumput laut Kering \n2 siung Bawang Putih \n2 sdm Kecap Asin \n2 sdm Minyak Wijen \n1 sdm Fish Sauce \n400 ml Air Panas / Kaldu \n\nExtra : \n200 gram Daging Sirloin \n1 siung Bawang Putih \n1 sdm Kecap Asin \n1 sdm Minyak Wijen"
+  },
+  {
+    "strName": "Samgyetang",
+    "strImage": "samgyetang.jpg",
+    "strIngredients": "1 ekor ayam ukuran sedang \n5 biji Bawang putih \n1 buah ginseng kering \n1 biji kurma kering \n1 gelas beras \n1 batang daun bawang \n1 lembar daun salam \n3 ruas jahe \n2 wortel dipotong kecil \n1/2 bawang bombay \n3 batang seledri \n2 sdm garam \n1 sdm lada \n1 sdm Minyak wijen"
+  },
+  {
+    "strName": "Beef Bulgogi",
+    "strImage": "beef_bulgogi.jpg",
+    "strIngredients": "500 gr daging khas dalam \n1 buah wortel \n1 ruas jahe \n1 buah daun bawang \n\nBahan marinasi : \n1 siung bawang bombay \n3 siung bawang putih \n2 sdm minyak wijen \n2 sdm kecap asin \n1 sdm kecap manis \n1 sdm madu \n1 sdt lada hitam \nsecukupnya Garam dan gula"
+  },
+  {
+    "strName": "Yangyeom Tongdak",
+    "strImage": "yangyeom_tongdak.jpg",
+    "strIngredients": "2 lembar ayam filet \n1 sachet tepung ayam(instant) \n5 sdm tepung terigu \nsecukupnya Merica bubuk \n3 sdm Madu \n3 sdm Saus tomat \n1 sdm Minyak wijen \n2 sdm Saus sambal(sesuai selera) \nDaun bawang \nWijen \n1 butir telur \nLemon \n2 Bawang putih \nMinyak \nsedikit Air"
+  },
+  {
+    "strName": "Yukgaejang (육개장)",
+    "strImage": "yukgaejang.jpg",
+    "strIngredients": "100 gr daging sapi \n1/4 bh bawang bombay \n2 bh jamur kuping \n30 gr kecambah \n1 btg daun bawang \n2 siung bawang putih \n2 sdm cabai bubuk \n\nSaus bumbu : \n1 sdt garam \n1 sdm kecap asin \n1 sdm minyak wijen \n1 sdm minyak sayur \n1/2 sdt lada hitam"
+  },
+  {
+    "strName": "Japchae",
+    "strImage": "japchae.jpg",
+    "strIngredients": "200 gr bihun jagung \n3 sdm kecap manis \n1 sdm kecap asin \n2 sdm minyak wijen \n1 sdt gula \nsecukupnya Minyak \n1 buah bawang bombay \n2 siung bawang putih \n200 gr daging sapi iris tipis \n100 gr wortel \n1/2 ikat caisim \n1/2 buah paprika merah \n3 buah jamur hioki \nWijen \n\nBahan marinasi : \n3 sdm kecap manis \n1 sdm kecap asin \n2 siung bawang putih \nSedikit jahe parut \n1 sdt garam, gula, merica"
+  },
+  {
+    "strName": "Dakgangjeong",
+    "strImage": "dakgangjeong.jpg",
+    "strIngredients": "250 gr fillet ayam, potong kotak2 \n1 bh bawang bombay, iris besar \n4 siung bawang putih, geprek cincang \n2 ruas jari jahe, geprek (kalau dicincang 1 ruas saja) \n1 btr telur, kocok lepas (untuk pelapis) \nSejumput garam \nSejumput merica \n1/2 sdt wijen, sangrai (untuk taburan) \nSecukupnya minyak goreng \n\nTepung pelapis : \n5 sdm tepung terigu serbaguna \n1 sdm tepung maizena \n1/4 sdt bawang putih bubuk \n1/4 sdt garam \n1/4 sdt merica bubuk \n\nCampuran saus : \n3 sdm saus sambal \n1 sdm saus tiram \n1 sdm kecap manis \n1 sdm madu \n1/2 sdm cabe bubuk"
+  }
+]
