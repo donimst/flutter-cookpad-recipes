@@ -8,13 +8,12 @@ class RecipeList extends StatelessWidget {
 
   Widget build(BuildContext context) {
     return GridView.builder(
-      padding: EdgeInsets.all(8),
       itemCount: recipes == null ? 0 : recipes.length,
       gridDelegate:
-          new SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2),
+          SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2),
       itemBuilder: (context, index) {
-        return new GestureDetector(
-          child: new Card(
+        return GestureDetector(
+          child: Card(
             elevation: 5.0,
             margin: EdgeInsets.all(8),
             shape: RoundedRectangleBorder(
@@ -23,7 +22,7 @@ class RecipeList extends StatelessWidget {
                   bottomRight: Radius.circular(32.0)),
             ),
             borderOnForeground: true,
-            child: new Column(
+            child: Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
               mainAxisSize: MainAxisSize.min,
               verticalDirection: VerticalDirection.down,
@@ -32,9 +31,12 @@ class RecipeList extends StatelessWidget {
                   borderRadius: BorderRadius.only(
                     topLeft: Radius.circular(32.0),
                   ),
-                  child: Image.asset(
-                      'assets/images/${recipes[index].imagePath}',
-                      fit: BoxFit.fill),
+                  child: Hero(
+                    child: Image.asset(
+                        'assets/images/${recipes[index].imagePath}',
+                        fit: BoxFit.fill),
+                    tag: 'Recipes$index',
+                  ),
                 ),
                 Padding(
                   padding: EdgeInsets.only(top: 16),
@@ -55,6 +57,7 @@ class RecipeList extends StatelessWidget {
               context,
               MaterialPageRoute(
                 builder: (context) => DetailPage(
+                    id: index,
                     itemName: recipes[index].name,
                     imagePath: recipes[index].imagePath,
                     ingredients: recipes[index].ingredients),

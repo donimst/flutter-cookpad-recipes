@@ -1,0 +1,57 @@
+[
+  {
+    "strName": "Songpyeon",
+    "strImage": "songpyeon.jpg",
+    "strIngredients": "250 gr tepung beras ketan \n150 gr kacang hijau kupas \nsecukupnya Air hangat \n6 sdm gula pasir \nDaun pisang/daun nangka \n1 sendok makan Minyak goreng atau minyak wijen"
+  },
+  {
+    "strName": "Bungeoppang",
+    "strImage": "bungeoppang.jpg",
+    "strIngredients": "Bahan Adonan : \n60 gr mentega/margarin \n35 gr gula pasir \n2 butir telur \n270 gr tepung terigu \n70 gr tepung ketan \n35 gr susu bubuk \n1 sdt garam \n1 sdt baking powder \n350 ml air/susu cair \n\nBahan isi : \nPasta kacang merah"
+  },
+  {
+    "strName": "Hotteok",
+    "strImage": "hotteok.jpg",
+    "strIngredients": "Bahan Adonan : \n400 g tepung cakra \n100 g tepung segitiga \n2 sdm gula castor \nSejumput garam \n1 sdm ragi \n300 ml susu cair hangat \n100 ml minyak goreng \n\nBahan isian : \nbrown sugar : gula bubuk 3:1 + vanila \nkeju mozarella \nchoco chip"
+  },
+  {
+    "strName": "Pajeon",
+    "strImage": "pajeon.jpg",
+    "strIngredients": "100 gr daun bawang,potong \n100 gr tepung terigu \n2 butir telur ayam \n1 buah wortel,potong korek api \n1 lembar daun kol,iris \n1 buah cabai merah,potong korek api \n1/2 siung bawang bombai,iris (me.skip) \n10 ekor udang,belah dua \n1 sdt garam \n1/2 sdt lada \n200 ml air \nSecukupnya minyak goreng \n\nSaos : \n2 siung bawang putih,cincang \n3 buah cabai rawit,iris \n1/2 batang daun bawang,iris halus \n3 SDM kecap asin \n1/2 SDM minyak wijen \n1/4 sdt cuka \n2 SDM gula pasir \n100 ml air"
+  },
+  {
+    "strName": "Enoki jeon",
+    "strImage": "enoki_jeon.jpg",
+    "strIngredients": "1 bungkus jamur enoki \n1 batang daun bawang, iris-iris \n2 butir telur \n2 sdm terigu \nsecukupnya Garam, merica \n2 sdm minyak goreng"
+  },
+  {
+    "strName": "Yukjeon",
+    "strImage": "yukjeon.jpg",
+    "strIngredients": "200 gram daging sapi slice \n2 butir telur \n1 siung bawang putih cincang \n1 sdm minyak wijen \n2 sdm tepung terigu \nGaram \nLada hitam \nMinyak goreng"
+  },
+  {
+    "strName": "Odeng",
+    "strImage": "odeng.jpg",
+    "strIngredients": "160 gr ikan tanpa tulang dan kulit \n40 gr udang kupas \n3 sdm tapioka \n1 sdm terigu \n1 butir telur ukuran kecil \n1/2 sdt garam \n1 sdt dashi \n1/2 sdt lada"
+  },
+  {
+    "strName": "Eomuk",
+    "strImage": "eomuk.jpg",
+    "strIngredients": "500 gr Daging Ikan Tenggiri \n250 gr Udang \n250 gr Cumi (buang kulitnya) \n2 sdm Gula \n3 sdt Garam \n1 sdt Lada Bubuk \n2 siung Bawang Putih \n1/2 btr Bawang Bombay (uk.kecil) \n1 btr Putih Telur \n80 gr Tepung Terigu \n100 gr Tepung Sagu \n1 btg Daun Bawang iris kecil2 (bagian hijau sj) \n1 buah Wortel (cincang halus) \nSecukupnya minyak untuk menggoreng"
+  },
+  {
+    "strName": "Gamjajeon",
+    "strImage": "gamjajeon.jpg",
+    "strIngredients": "2 bh kentang,kupas lalu cuci bersih \n1 sdm tepung terigu \nsecukupnya Lada & garam"
+  },
+  {
+    "strName": "Chamchijeon",
+    "strImage": "chamchijeon.jpg",
+    "strIngredients": "1 kaleng Tuna flake/ chunk dalam air atau dalam minyak (185 gram) \n1 buah telur \n1/2 buah Bawang bombay ukuran sedang \n1 siung Bawang putih \n2 sdm Tepung terigu \n1 sdt Minyak wijen \n3/4 sdt Garam \n1/4 sdt Lada hitam giling \n1-2 sdm Minyak goreng untuk menggoreng perkedel tuna"
+  },
+  {
+    "strName": "Garaetteok (가래떡)",
+    "strImage": "garaetteok.jpg",
+    "strIngredients": "2 gelas uk. sedang tepung beras rose brand \n3 sdm tepung tapioka \n1/2 sdt garam \nsecukupnya air panas \nsecukupnya minyak wijen/minyak goreng"
+  }
+]

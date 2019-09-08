@@ -1,17 +1,24 @@
 import 'package:flutter/material.dart';
 
-class DetailPage extends StatelessWidget {
+class DetailPage extends StatefulWidget {
+  final int id;
   final String itemName;
   final String imagePath;
   final String ingredients;
-  DetailPage({Key key, this.itemName, this.imagePath, this.ingredients})
+  DetailPage(
+      {Key key, this.id, this.itemName, this.imagePath, this.ingredients})
       : super(key: key);
 
+  @override
+  _DetailPageState createState() => _DetailPageState();
+}
+
+class _DetailPageState extends State<DetailPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-          title: Text('Resep $itemName'),
+          title: Text('Resep '+widget.itemName),
           leading: IconButton(
             icon: Icon(Icons.arrow_back),
             onPressed: () => Navigator.pop(context, false),
@@ -24,20 +31,23 @@ class DetailPage extends StatelessWidget {
             children: <Widget>[
               Column(
                 children: <Widget>[
-                  Container(
-                    width: 160,
-                    height: 160,
-                    decoration: BoxDecoration(
-                      shape: BoxShape.circle,
-                      border: Border.all(
-                        color: Theme.of(context).accentColor,
-                        width: 2.0,
-                      ),
-                      image: DecorationImage(
-                        image: AssetImage('assets/images/$imagePath'),
-                        fit: BoxFit.cover,
+                  Hero(
+                    child: Container(
+                      width: 160,
+                      height: 160,
+                      decoration: BoxDecoration(
+                        shape: BoxShape.circle,
+                        border: Border.all(
+                          color: Theme.of(context).accentColor,
+                          width: 2.0,
+                        ),
+                        image: DecorationImage(
+                          image: AssetImage('assets/images/'+widget.imagePath),
+                          fit: BoxFit.cover,
+                        ),
                       ),
                     ),
+                    tag: 'Recipes'+widget.id.toString(),
                   ),
                   Padding(
                     padding: EdgeInsets.only(top: 8),
@@ -47,7 +57,7 @@ class DetailPage extends StatelessWidget {
                     children: <Widget>[
                       Column(
                         children: <Widget>[
-                          Text(itemName,
+                          Text(widget.itemName,
                               style: TextStyle(
                                   fontSize: 24.0,
                                   color: Theme.of(context).primaryColor)),
@@ -64,7 +74,7 @@ class DetailPage extends StatelessWidget {
                     padding: EdgeInsets.only(top: 8),
                     child: Container(
                       child: Text(
-                        ingredients,
+                        widget.ingredients,
                         textAlign: TextAlign.justify,
                         style: TextStyle(fontSize: 18.0),
                       ),

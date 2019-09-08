@@ -6,7 +6,7 @@ class Recipes {
   Recipes({this.name, this.imagePath, this.ingredients});
 
   factory Recipes.fromJson(Map<String, dynamic> json) {
-    return new Recipes(
+    return Recipes(
       name: json['strName'] as String,
       imagePath: json['strImage'] as String,
       ingredients: json['strIngredients'] as String,

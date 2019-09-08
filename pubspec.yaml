@@ -44,7 +44,8 @@ flutter:
   #  - images/a_dot_ham.jpeg
 
   assets:
-    - assets/recipes.json
+    - assets/breakfast.json
+    - assets/dessert.json
     - assets/images/gyeran_mari.jpg
     - assets/images/kimbab_gampil.jpg
     - assets/images/miyeok_guk.jpg
@@ -55,6 +56,18 @@ flutter:
     - assets/images/japchae.jpg
     - assets/images/dakgangjeong.jpg
     - assets/images/tteokbokki.jpg
+    - assets/images/jjajangmyeon.jpg
+    - assets/images/songpyeon.jpg
+    - assets/images/bungeoppang.jpg
+    - assets/images/hotteok.jpg
+    - assets/images/pajeon.jpg
+    - assets/images/enoki_jeon.jpg
+    - assets/images/yukjeon.jpg
+    - assets/images/odeng.jpg
+    - assets/images/eomuk.jpg
+    - assets/images/gamjajeon.jpg
+    - assets/images/chamchijeon.jpg
+    - assets/images/garaetteok.jpg
     
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
