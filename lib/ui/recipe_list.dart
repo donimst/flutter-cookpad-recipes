@@ -15,7 +15,7 @@ class RecipeList extends StatelessWidget {
         return GestureDetector(
           child: Card(
             elevation: 5.0,
-            margin: EdgeInsets.all(8),
+            margin: EdgeInsets.only(left: 8, right: 8, bottom: 16),
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.only(
                   topLeft: Radius.circular(32.0),

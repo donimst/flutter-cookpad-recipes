@@ -18,7 +18,7 @@ class _DetailPageState extends State<DetailPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-          title: Text('Resep '+widget.itemName),
+          title: Text('Resep ' + widget.itemName),
           leading: IconButton(
             icon: Icon(Icons.arrow_back),
             onPressed: () => Navigator.pop(context, false),
@@ -31,23 +31,16 @@ class _DetailPageState extends State<DetailPage> {
             children: <Widget>[
               Column(
                 children: <Widget>[
-                  Hero(
-                    child: Container(
-                      width: 160,
-                      height: 160,
-                      decoration: BoxDecoration(
-                        shape: BoxShape.circle,
-                        border: Border.all(
-                          color: Theme.of(context).accentColor,
-                          width: 2.0,
-                        ),
-                        image: DecorationImage(
-                          image: AssetImage('assets/images/'+widget.imagePath),
-                          fit: BoxFit.cover,
-                        ),
+                  Container(
+                    width: 160,
+                    height: 160,
+                    child: ClipOval(
+                      child: Hero(
+                        child: Image.asset('assets/images/' + widget.imagePath,
+                            fit: BoxFit.cover),
+                        tag: 'Recipes' + widget.id.toString(),
                       ),
                     ),
-                    tag: 'Recipes'+widget.id.toString(),
                   ),
                   Padding(
                     padding: EdgeInsets.only(top: 8),
